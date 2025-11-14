@@ -85,4 +85,5 @@ class TriangleTestCase(unittest.TestCase):
         res = triangle_perimeter(9, 10, 14)
         self.assertEqual(res, 33)
 
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
